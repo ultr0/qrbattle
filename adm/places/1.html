@@ -1,0 +1,48 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<title>QR-Battle Созвездие</title>
+	<script src="jquery.min.js"></script>
+
+	<style>
+	*{font-family:sans-serif}
+	table,h1{margin:0 auto}
+	body{width:100%;height:100%;margin:0;padding:0;}
+	html{width:100%;height:100%;}
+	div.center{text-align:center}
+	div.center *{display:inline-block}
+	h2 {margin:5px}
+
+	p{margin:5px 0 0;vertical-align:middle}
+		</style>
+</head>
+<body>
+
+
+			<div style='width:100%;height:100%;display:none' id='outerdiv'><span style='display:inline-block;text-align:center;position:absolute;top:50%;margin-top:-1.2em;margin-left:1em'><b>1<br>место</b></span><img style='float:right' src='1.png'/></div>			
+			<script>
+				$(function(){
+					$("#outerdiv").delay(500).fadeIn(1000);
+					$(document).keypress(function(e)
+					{
+						switch (e.which)
+						{
+							case 49: window.location="1.html";break;
+							case 50: window.location="2.html";break;
+							case 51: window.location="3.html";break;
+							case 52: window.location="4.html";break;
+							case 53: window.location="5.html";break;
+							default:
+					//			alert(e.which);
+					//			break;
+								return;
+						}
+						e.preventDefault();
+					});
+				});
+
+
+			</script>
+
+</body>
+</html>
