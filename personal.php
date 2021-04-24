@@ -21,7 +21,7 @@ foreach ($vips as $key => $v)
 		return;
 	}
 }
-DrawTemplate("Вы не попали в список призёров");
+DrawTemplate("Вы не попали в список призёров  ".$sid);
 
 
 function DrawTemplate($body)

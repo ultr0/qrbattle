@@ -157,9 +157,11 @@ function dbg($some,$white=false)
 	$black=$white?"white":"black";
 	echo "<div style='font-size:14px;white-space:pre-wrap;font-family:\"courier new\"'><font color=$red>#</font>";
 	echo "<font color=$black>";
-	echo htmlspecialchars(print_r($some,true),ENT_QUOTES,'cp1251');
+	echo htmlspecialchars(print_r($some,true),ENT_QUOTES,'UTF-8');
 	echo "</font>";
 	echo "<font color=$red>#</font></div>";
+    echo "<div style='font-size:32px;white-space:pre-wrap;font-family:\"courier new\"'><font color=$red>Да, это сообщение об ошибке, но если ты, странник попал сюда после радужного кода, то так и было задуманно неведомым создателем! <a href='index.php'>Жми сюда и ступай с миром.</a></font>";
+
 }
 
 

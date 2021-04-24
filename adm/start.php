@@ -2,8 +2,8 @@
 include "../start.php";
 
 if (!AdminAccess()) {
-	header("Location: /");
-	exit();
+    header("Location: /");
+    exit();
 }
 
 DbgAll(1);
