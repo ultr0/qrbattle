@@ -37,7 +37,7 @@ switch ($_GET['q']) {
         echo '<p><a href="spoiled.php">Использованные коды</a></p>';
         echo '<p><a href="table.php">Таблица</a></p>';
         echo '<p><a href="testsub.php">давайте испортим наши коды</a></p>';
-        echo '<br><br><br>';
+        echo '<br>какаято ерунда<br>';
         echo '<p><a href="fillcodestable.php">обнуление и перзаполнение кодов</a></p>';
         echo '<br><br><p><a href="reset.php">Сброс всего!!!!!!!111</a></p>';
 }

@@ -29,6 +29,11 @@ $html = <<<STR
 <body>
 STR;
 
+if (empty($_COOKIE["TeamQR"])) {
+    $newURL = 'https://qrbattle.2rom.ru/reg.php';
+    return header('Location: '.$newURL);;
+}
+
 if (!$res->num_rows) // не найден код
 {
     $ips = file_get_contents('wrongcounter.txt');
