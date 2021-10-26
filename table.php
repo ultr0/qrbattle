@@ -1,4 +1,5 @@
 <style>
+
 	table,h1{margin:15px auto}
 	div.center{text-align:center}
 	div.center *{display:inline-block}
@@ -34,7 +35,7 @@ while($r = $res->fetch_assoc())
 }
 
 //	echo "<p>Текущее время  по линуксу - $ct</p>";
-echo "<div class='center'><h2>Таблица результатов</h2></div>";
+echo "<div class='center'><img src='images/qrLogo.png'/> <h2>Таблица результатов</h2><img src='/images/qrcode.png' width='120px' /></div>";
 $hidetimevalue=3600;
 echo "<table>";
 $i=1;
@@ -57,6 +58,7 @@ foreach ($teams as $r)
 }
 echo "</table>";
 ?>
+
 <script>
 window.setTimeout("location.reload()",5000);
 </script>

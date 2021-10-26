@@ -13,8 +13,8 @@
 	*,*:before,*:after{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;-o-box-sizing:content-box;-ms-box-sizing:content-box;box-sizing:content-box}
 
 	body {
-		font-size: 13.5pt;
-		font-family: sans-serif;
+		font-size: 16px;
+		font-family: 'Raleway', sans-serif;
 		background-color: #ffffff;
 		color: #000000;
 		letter-spacing: -1px;
