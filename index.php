@@ -42,7 +42,7 @@ if (isset($_SESSION['msg'])) {
 
     if (!isset($_GET['p'])) {
         echo <<<STR
-	<h2>QR-BATTLE</h2>
+	<div class='center'><img src='images/qrLogo.png'/></div>
 <p>
 <a class='button' href='?p=about'>Описание игры</a><br>
 <a class='button'  href='?p=soft'>Скачать QR-распознаватель</a><br>

@@ -234,3 +234,7 @@
 		#navPanel .link:last-child {
 			border-bottom: 0;
 		}
+
+		form p img {
+			width: 100%;
+		}
