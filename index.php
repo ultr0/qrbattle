@@ -45,7 +45,7 @@ if (isset($_SESSION['msg'])) {
 	<div class='center'><img src='images/qrLogo.png'/></div>
 <p>
 <a class='button' href='?p=about'>Описание игры</a><br>
-<a class='button'  href='?p=soft'>Скачать QR-распознаватель</a><br>
+<!--<a class='button'  href='?p=soft'>Скачать QR-распознаватель</a><br>-->
 <a class='button'  href='?p=table'>Таблица результатов</a><br>
 <a class='button'  href='reg.php'>Регистрация</a><br>
 </p>
